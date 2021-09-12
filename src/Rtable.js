@@ -1,12 +1,9 @@
 import React from "react";
 import { Table } from "react-bootstrap";
 import { useTable, useSortBy, useFilters } from "react-table";
-import CustomInput from "./DataForm";
+import CustomInput from "./CustomInput";
 
-window.Date.prototype.isValid = function() {
 
-  return this.getTime() === this.getTime();
-};
 
 const ColumnFilter = ({ column: { filterValue, setFilter, filter } }) => {
   return (
