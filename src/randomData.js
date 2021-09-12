@@ -1,5 +1,5 @@
 
-export const num =()=> {
+export const random =()=> {
   let arr = [ 
     {  
         "name":"Cheesecake Factory",
