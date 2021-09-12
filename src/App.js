@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 // import "bootstrap/dist/css/bootstrap.css";
-import random, { headers } from "./randomData";
+import {random , headers } from "./randomData";
 import RTable from "./Rtable";
 
 export default function App() {
