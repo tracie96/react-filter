@@ -1,12 +1,16 @@
 import React from "react";
 import { Table } from "react-bootstrap";
 import { useTable, useSortBy, useFilters } from "react-table";
-import {DataForm} from "./DataForm";
+import CustomInput from "./DataForm";
 
+window.Date.prototype.isValid = function() {
+
+  return this.getTime() === this.getTime();
+};
 
 const ColumnFilter = ({ column: { filterValue, setFilter, filter } }) => {
   return (
-    <DataForm
+    <CustomInput
       value={filterValue || ""}
       onChange={e => {
         setFilter(e.target.value || undefined); 

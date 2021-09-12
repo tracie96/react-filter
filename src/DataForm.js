@@ -1,8 +1,10 @@
 import React from "react";
 import { Form } from "react-bootstrap";
 
-export const DataForm =()=> {
- 
+export default props => {
+    const styleForm= {
+        "borderBackground":"red"
+    }
   let { placeholder, name, value, onChange = () => null } = props;
   return (
     <Form.Group>
