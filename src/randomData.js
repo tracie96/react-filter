@@ -1,6 +1,5 @@
-import Chance from "chance";
 
-export default num => {
+export const num =()=> {
   let arr = [ 
     {  
         "name":"Cheesecake Factory",
