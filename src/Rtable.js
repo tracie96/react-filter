@@ -1,7 +1,7 @@
 import React from "react";
 import { Table } from "react-bootstrap";
 import { useTable, useSortBy, useFilters } from "react-table";
-import DataForm from "./DataForm";
+import {DataForm} from "./DataForm";
 
 
 const ColumnFilter = ({ column: { filterValue, setFilter, filter } }) => {
