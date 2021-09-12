@@ -1,7 +1,7 @@
 import React from "react";
 import { Form } from "react-bootstrap";
 
-export const props =()=> {
+export const DataForm =()=> {
  
   let { placeholder, name, value, onChange = () => null } = props;
   return (
